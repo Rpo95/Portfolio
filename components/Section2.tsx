@@ -14,7 +14,7 @@ export default function Section2({ onSectionChange }: any) {
   };
   return (
     <main
-      style={{ backgroundImage: 'url("/layoutportfolio1.svg")' }}
+      style={{ backgroundImage: 'url("/layout.webp")' }}
       className="h-full py-10 lg:py-0 lg:h-screen  bg-cover flex justify-center items-center"
     >
       <motion.div
@@ -72,7 +72,7 @@ export default function Section2({ onSectionChange }: any) {
           </div>
         </div>
 
-        <div className=" my-10 lg:my-0 lg:w-6/12  flex justify-center items-center w-4/6 md:w-4/6 h-[335px] lg:h-full">
+        <div className=" my-10 lg:my-0 lg:w-6/12  flex justify-center items-center w-5/6 md:w-4/6 h-[335px] lg:h-full">
           <Slider currentTitle={currentTitle} currentImage={currentImage} />
         </div>
         <div className="w-full lg:hidden flex flex-col md:flex-row md:justify-around items-center space-y-5 md:space-y-0 mb-5 lg:mb-0">

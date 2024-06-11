@@ -24,7 +24,7 @@ export default function SocialMedia() {
           href="https://www.linkedin.com/in/rpo95/"
         >
           <Image
-            src="/linkedin.svg"
+            src="/linkedin.webp"
             className="hover:scale-105"
             width={45}
             height={45}

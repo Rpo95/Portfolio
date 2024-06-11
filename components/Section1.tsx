@@ -15,7 +15,7 @@ export default function Section1({ onSectionChange }: any) {
 
   return (
     <main
-      style={{ backgroundImage: 'url("/layoutportfolio1.svg")' }}
+      style={{ backgroundImage: 'url("/layout.webp")' }}
       className="h-full lg:h-screen bg-cover flex justify-center items-center"
     >
       <motion.div
@@ -57,7 +57,7 @@ export default function Section1({ onSectionChange }: any) {
         <div className="bg-cover lg:w-6/12 flex justify-center items-center">
           <Image
             className="shadow-lg shadow-white w-4/6 md:w-3/6 h-[335px]"
-            src="/teo.svg"
+            src="/teo.webp"
             alt="Profile Image"
             width={310}
             height={310}

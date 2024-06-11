@@ -24,7 +24,7 @@ export default function Section3({ onSectionChange }: Section3Props) {
   const handleCloseModal = () => setIsModalOpen(false);
   return (
     <main
-      style={{ backgroundImage: 'url("/layoutportfolio1.svg")' }}
+      style={{ backgroundImage: 'url("/layout.webp")' }}
       className="h-full md:h-screen bg-cover flex justify-center items-center"
     >
       <motion.div
@@ -40,14 +40,14 @@ export default function Section3({ onSectionChange }: Section3Props) {
         <div className="w-full md:w-6/12 font-semibold flex flex-col space-y-5 justify-around text-white p-3">
           <h1 className="text-5xl text-center">MY SKILLS</h1>
           <div className="bg-cover grid grid-cols-3 lg:grid-cols-4 justify-items-center place-items-center">
-            <SkillCard h2="JavaScript" src="/js.svg" />
-            <SkillCard h2="CSS" src="/css.svg" />
-            <SkillCard h2="Html" src="/html.svg" />
-            <SkillCard h2="NextJs" src="/next.svg" />
-            <SkillCard h2="TailwindCss" src="/tailwind.svg" />
-            <SkillCard h2="ReactJs" src="/react.svg" />
-            <SkillCard h2="Git" src="/git.svg" />
-            <SkillCard h2="Sketchup" src="/sketchup.svg" />
+            <SkillCard h2="JavaScript" src="/js.webp" />
+            <SkillCard h2="CSS" src="/css.webp" />
+            <SkillCard h2="Html" src="/html.webp" />
+            <SkillCard h2="NextJs" src="/next.webp" />
+            <SkillCard h2="TailwindCss" src="/tailwind.webp" />
+            <SkillCard h2="ReactJs" src="/react.webp" />
+            <SkillCard h2="Git" src="/git.webp" />
+            <SkillCard h2="Sketchup" src="/sketchup.webp" />
           </div>
           <div className="w-full hidden md:flex justify-around">
             <button
