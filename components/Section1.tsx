@@ -16,7 +16,7 @@ export default function Section1({ onSectionChange }: any) {
   return (
     <main
       style={{ backgroundImage: 'url("/layout.webp")' }}
-      className="h-full lg:h-screen bg-cover flex justify-center items-center"
+      className="h-full  lg:h-screen bg-cover flex justify-center items-center"
     >
       <motion.div
         className="bg-cover py-10 lg:py-0 opacity-95 w-5/6 shadow-lg shadow-white h-5/6 flex flex-col lg:flex-row space-y-5 lg:space-y-0"
@@ -59,7 +59,9 @@ export default function Section1({ onSectionChange }: any) {
             className="shadow-lg shadow-white w-4/6 md:w-3/6 h-[335px]"
             src="/teo.webp"
             alt="Profile Image"
+            quality={100}
             width={310}
+            priority
             height={310}
           />
         </div>

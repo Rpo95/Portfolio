@@ -15,7 +15,7 @@ export default function ModalContact({ isOpen, onClose }: ModalContactProps) {
   return (
     <div className="fixed w-full inset-0 flex flex-col space-y-5 items-center justify-center backdrop-blur-md z-50">
       <motion.div
-        className="bg-transparent w-3/6 h-4/6 md:h-2/6 lg:w-2/6 lg:h-2/6 shadow-lg shadow-white p-6 "
+        className="bg-transparent w-3/6 h-4/6 md:h-2/6 lg:w-3/6 lg:h-2/6 shadow-lg shadow-white p-6 "
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         exit={{ opacity: 0, scale: 0.8 }}

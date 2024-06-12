@@ -4,7 +4,7 @@ import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
-const images = ["/glamto.webp", "/logo.webp"];
+const images = ["/glamto.webp", "/aei.webp"];
 const titles = [
   "https://www.glampingdelgato.com/",
   "https://www.aeiconstructores.com/",

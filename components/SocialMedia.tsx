@@ -28,7 +28,20 @@ export default function SocialMedia() {
             className="hover:scale-105"
             width={45}
             height={45}
-            alt="Gimnasios para gatos"
+            alt="Linkedin"
+          />
+        </Link>
+        <Link
+          target="_blank"
+          className="w-[90px] h-[90px] border my-2  flex flex-col justify-center items-center bg-black "
+          href="mailto:teo9515@gmail.com"
+        >
+          <Image
+            src="/gmail.webp"
+            className="hover:scale-105"
+            width={45}
+            height={45}
+            alt="Gmail"
           />
         </Link>
         <Link
