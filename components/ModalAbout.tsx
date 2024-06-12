@@ -23,10 +23,10 @@ export default function ModalContact({ isOpen, onClose }: ModalContactProps) {
       >
         <div className="flex flex-col justify-center  items-center w-full h-full">
           <p className="text-white text-md font-medium w-full h-full">
-            Hello, my name is Mateo Restrepo. I am passionate about soccer,
-            creativity, learning, and socializing. I have a strong love for
-            traveling, discovering new places, and spending quality time with my
-            family, friends, girlfriend, and dogs.
+            Hello, my name is Mateo Restrepo Herrera. I am passionate about
+            soccer, creativity, learning, and socializing. I have a strong love
+            for traveling, discovering new places, and spending quality time
+            with my family, friends, girlfriend, and dogs.
           </p>
           <p className="text-white text-md font-medium w-full h-full">
             I consider myself a calm individual who is enthusiastic about
