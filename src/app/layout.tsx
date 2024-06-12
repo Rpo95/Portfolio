@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: "Portfolio",
   description: "Portfolio Mateo Restrepo",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +21,7 @@ export default function RootLayout({
           property="og:url"
           content="https://portfolio-rpo95s-projects.vercel.app/"
         />
-        <meta property="og:image" content="/teo.svg" />
+        <meta property="og:image" content="/path/to/teo.svg" />
         <meta property="og:site_name" content="Portfolio" />
       </head>
       <body className={inter.className}>{children}</body>
