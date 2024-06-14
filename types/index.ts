@@ -35,5 +35,4 @@ export interface Experience {
     },
     
     
-    // Add more experiences here...
   ];

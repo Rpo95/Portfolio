@@ -15,7 +15,7 @@ export default function SocialMedia() {
             className="hover:scale-105"
             width={45}
             height={45}
-            alt="guarderia de gatos en medellin"
+            alt="Whastapp"
           />
         </Link>
         <Link
@@ -54,7 +54,7 @@ export default function SocialMedia() {
             className="hover:scale-105"
             width={40}
             height={40}
-            alt="Gimnasios para gatos"
+            alt="Instagram"
           />
         </Link>
       </div>

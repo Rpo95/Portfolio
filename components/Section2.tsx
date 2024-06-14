@@ -49,7 +49,7 @@ export default function Section2({ onSectionChange }: any) {
               type="button"
               className="btn-secondary "
             >
-              Tybatrip
+              Empacol
             </button>
           </div>
           <div className="w-full hidden lg:flex justify-around">
