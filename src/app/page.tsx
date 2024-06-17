@@ -1,7 +1,7 @@
 "use client";
 
 import { Section1, Section2, Section3 } from "../../components";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState(1);
@@ -9,6 +9,11 @@ export default function Home() {
   const handleSectionChange = (section: number) => {
     setActiveSection(section);
   };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [activeSection]);
+
   return (
     <main className="">
       {activeSection === 1 && (

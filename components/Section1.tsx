@@ -1,4 +1,3 @@
-// Section1.tsx
 "use client";
 
 import React, { useState } from "react";
@@ -14,10 +13,7 @@ export default function Section1({ onSectionChange }: any) {
   const handleCloseModal = () => setIsModalOpen(false);
 
   return (
-    <main
-      style={{ backgroundImage: 'url("/layout.webp")' }}
-      className="h-full  lg:h-screen bg-cover flex justify-center items-center"
-    >
+    <main className="main-background h-full lg:h-screen bg-cover flex justify-center items-center">
       <motion.div
         className="bg-cover py-10 lg:py-0 opacity-95 w-5/6 shadow-lg shadow-white h-5/6 flex flex-col lg:flex-row space-y-5 lg:space-y-0"
         initial={{ opacity: 0, scale: 0.5 }}
@@ -28,11 +24,11 @@ export default function Section1({ onSectionChange }: any) {
           ease: [0, 0.71, 0.2, 1.01],
         }}
       >
-        <div className=" w-full lg:w-6/12 font-semibold flex flex-col md:items-center lg:items-start justify-center lg:justify-end space-y-10 lg:space-y-0 bg-transparent text-white p-3">
+        <div className="w-full lg:w-6/12 font-semibold flex flex-col md:items-center lg:items-start justify-center lg:justify-end space-y-10 lg:space-y-0 bg-transparent text-white p-3">
           <p className="border w-full text-end text-lg px-3">
             Hi there! I am Mateo
           </p>
-          <div className="space-y-6 w-full md:w-8/12 lg:w-full  ">
+          <div className="space-y-6 w-full md:w-8/12 lg:w-full">
             <h1 className="text-5xl text-center lg:text-start lg:text-7xl">
               WEB DEVELOPER
             </h1>
@@ -56,13 +52,14 @@ export default function Section1({ onSectionChange }: any) {
         </div>
         <div className="bg-cover lg:w-6/12 flex justify-center items-center">
           <Image
-            className="shadow-lg shadow-white w-4/6 md:w-3/6 h-[335px]"
+            className="shadow-lg shadow-white w-4/6 sm:w-3/6 h-[335px]"
             src="/teo.webp"
             alt="Profile Image"
             quality={100}
             width={310}
             priority
             height={310}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
         <div className="w-full flex flex-col items-center lg:flex-row lg:justify-around space-y-5 lg:space-y-0 lg:hidden">
@@ -79,7 +76,9 @@ export default function Section1({ onSectionChange }: any) {
         </div>
       </motion.div>
 
-      <ModalContact isOpen={isModalOpen} onClose={handleCloseModal} />
+      {isModalOpen && (
+        <ModalContact isOpen={isModalOpen} onClose={handleCloseModal} />
+      )}
     </main>
   );
 }
